@@ -1,0 +1,7 @@
+name: fugue
+channels:
+  - defaults
+dependencies:
+  - openjdk
+  - pip:
+    - fugue[spark,dask,ray]==0.8.3
